@@ -1,0 +1,74 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefefe;
+  background-image: url('background-pattern.png'); /* Optional subtle background pattern */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+  max-width: 500px;
+  background: rgba(47, 45, 45, 0.85);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.logo-box {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto 20px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.logo-img {
+  width: 120%;
+  height: auto;
+}
+
+.title {
+  font-size: 2.8em;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.2em;
+  color: #ffffff;
+  font-style: italic;
+}
+
+.next-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+  background-color: #333;
+}
